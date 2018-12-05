@@ -74,4 +74,5 @@ describe('OutcomeButton.vue', () => {
       fontSize: '2em',
     });
   });
+
 });

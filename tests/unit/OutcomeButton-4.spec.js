@@ -28,4 +28,5 @@ describe('OutcomeButton.vue', () => {
       previousOdd: null,
     });
   });
+
 });

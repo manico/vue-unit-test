@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OutcomeButton.vue is rendered correctly 1`] = `
+<button
+  class="button"
+  style="font-size: 1em;"
+>
+  <div
+    class="frame"
+  >
+    <span
+      class="label"
+    >
+      Manchester City
+    </span>
+     
+    <span
+      class="odd"
+    >
+      
+      1.45
+    
+    </span>
+  </div>
+   
+  <div
+    class="change"
+  />
+</button>
+`;
