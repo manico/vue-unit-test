@@ -5,7 +5,7 @@ describe('Store Mutations', () => {
   it('adds match to matches state', () => {
     const state = {
       matches: [
-        { id: '1/10', name: 'Arsenal - Liverpool', active: true, bets: [], },
+        { id: '1/10', name: 'Arsenal - Liverpool', active: true, bets: [] },
       ],
     };
 

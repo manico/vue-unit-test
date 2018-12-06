@@ -16,6 +16,7 @@
 
 <script>
 import { isNil, isNumber } from 'lodash';
+import { mapGetters } from 'vuex';
 
 export default {
   name: 'OutcomeButton',
@@ -48,6 +49,9 @@ export default {
     },
   },
   computed: {
+    ...mapGetters([
+      'user',
+    ]),
     style() {
       return {
         fontSize: isNumber(this.fontSize) ? `${this.fontSize}em` : this.fontSize,
