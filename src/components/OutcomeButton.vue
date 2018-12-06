@@ -101,7 +101,7 @@ export default {
 .button {
   position: relative;
   padding: 0 1em;
-  background: #2e2e2e;
+  background: rgb(59, 37, 37);
   color: #eee;
   border: none;
   font-size: 1em;
