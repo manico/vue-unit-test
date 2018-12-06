@@ -80,6 +80,18 @@ export default {
         odd: this.odd,
         previousOdd: this.previousOdd,
       });
+
+      /*
+      This makes no sense, but it is there
+      for testing purposes.
+      */
+      if (this.$store) {
+        this.$store.dispatch('changeUser', {
+          user: {
+            email: 'dummy@nsoft.com',
+          },
+        });
+      }
     },
   },
 };
