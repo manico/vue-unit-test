@@ -54,7 +54,7 @@
   "jest": {
     "collectCoverage": true,
     "collectCoverageFrom": [
-      "src/**/*.{js}"
+      "src/**/*.{js|vue}"
     ],
     "coverageDirectory": "./tests/coverage/",
     "coverageReporters": [
