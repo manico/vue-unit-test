@@ -17,7 +17,7 @@ export default {
     return {
       outcomeButtonMock: {
         id: '10/250/4000',
-        label: 'Arsenal 2',
+        label: 'Arsenal 222',
         odd: 1.45,
         fontSize: 2,
         width: 400,
